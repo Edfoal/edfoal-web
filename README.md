@@ -1,2 +1,9 @@
-# edfoal-web
-This repo contains source code for edfoal's website
+# <p align = "center"> EdFoal Web </p>
+Live at :- https://edfoal.com/
+### Table of Content
+### About
+### Technology Stack
+### Setup/Installation
+### Status
+### Credits
+
