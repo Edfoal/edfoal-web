@@ -1,0 +1,138 @@
+.Footer{
+    font-family: 'Roboto';
+    height: 370px;
+    /* line-height: 10px; */
+}
+
+.Footer-Main {
+    display: flex;
+    height: 350px;
+    margin-top: 20px;
+    /* border: 2px gray solid; */
+    padding-left: 40px;
+    padding-right: 60px;
+
+}
+
+.Flex-Item-1{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.Flex-Item-2{
+    background: #c1c1c1;
+    width: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    /* height: 150px; */
+}
+
+.Flex-Item-3{
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 40px;
+}
+
+.Flex-Item-4{
+    display: flex;
+    width: 40%;
+    padding-left: 50px;
+    flex-direction: column;
+}
+
+.Edfoal-Logo{
+    width: 150px;
+    height: 150px;
+    /* border: 2px grey solid; */
+}
+
+.Logo-Image{
+    max-height: 100%;
+    max-width: auto;
+}
+
+.Edfoal-Name{
+    /* border: 1px grey solid; */
+    text-align: center;
+    padding: 0px;
+}
+
+.F-Main-Heading{
+    font-family: 'Android';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.F-Sub-Heading{
+    font-size: 12px;
+}
+
+.Footer-Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px green solid; */
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 30px;
+    font-size: 12px;
+    line-height: 0px;
+    /* padding-left: 10px; */
+}
+
+.Footer-Top{
+    display: flex;
+    justify-content: center;
+}
+
+.Bar{
+    width: 200px;
+    height: 4px;
+    background: black;
+    border-radius: 2px;
+}
+
+.FI3-Main-Heading{
+    color:#646464;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.FI3-Sub-Heading{
+    color: blue;
+}
+
+.App-Coming-Soon{
+    margin-top: 50px;
+}
+
+.FI4-Main-Heading{
+    color:#646464;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Follow-Logo{
+    display: flex;
+    align-content: center;
+}
+
+.FL-Container{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    align-content: center;
+}
