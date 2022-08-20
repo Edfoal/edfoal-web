@@ -1,17 +1,29 @@
-import './Navbar.css'
+import './Navbar.css';
+import {MenuItems} from './MenuItems';
+import logo from './assets/Edfoal-header-logo.svg';
+
 
 const Navbar = () => {
     return (
         <div >
             <nav className="Navbar">
-                <a href="/" className="Site-Title">EdFoal</a>
-                <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/team">Team</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
+                <div className="Navbar-Icon">
+                    <img className="Logo" src={logo} alt="logo"/>
+                </div>
+                <div className="Navbar-Logo"><h1>EdFoal</h1></div>
+                <div className="Navbar-Items">
+                    <ul className="Items">
+                        {MenuItems.map((item, index)=>{
+                            return(
+                                <li>
+                                    <a className={item.cName} href={item.url}>
+                                        {item.title}
+                                    </a>                            
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
             </nav>
         </div>
     )
