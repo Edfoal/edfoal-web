@@ -1,6 +1,7 @@
 import './Navbar.css';
 import {MenuItems} from './MenuItems';
 import logo from './assets/Edfoal-header-logo.svg';
+import LoginButton from '../buttons/LoginButton';
 
 
 const Navbar = () => {
@@ -23,6 +24,9 @@ const Navbar = () => {
                             )
                         })}
                     </ul>
+                </div>
+                <div>
+                    <LoginButton/>
                 </div>
             </nav>
         </div>

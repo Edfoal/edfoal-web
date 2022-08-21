@@ -1,0 +1,28 @@
+.Back-To-Top{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background: #6CBA74;
+    border: 6px solid #a4e7aa;
+    border-radius: 60px;
+    align-items: center;
+    justify-items: center;
+    margin: 10px;
+    /* position: fixed; */
+    position: fixed;
+    bottom: 32px;
+    right: 20px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.Up-Arrow{
+    margin: auto;
+}
+
+.Back-To-Top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}

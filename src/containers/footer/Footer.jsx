@@ -6,6 +6,7 @@ import facebookLogo from './assets/facebook-logo.svg';
 import twitterLogo from './assets/twitter-logo.svg';
 import linkedinLogo from './assets/linkedin-logo.svg';
 import instagramLogo from './assets/instagram-logo.svg';
+import {BackToTopButton} from '../../components/index';
 
 const Footer = () => {
     return (
@@ -53,9 +54,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="Footer-Bottom">
+            {/* <div className="Footer-Bottom">
                 <div><p>© 2022 EdFoal. All rights reserved</p></div>
-            </div>
+            </div> */}
+            <BackToTopButton/>
         </div>
     )
 };

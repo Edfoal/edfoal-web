@@ -1,0 +1,10 @@
+.Login-Button{
+    font-family: 'roboto';
+    font-weight: bold;
+    color: white;
+    background-color: #6181B2;
+    border: 2px solid;
+    border-color: #1B6ACF;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}

@@ -1,0 +1,53 @@
+.Quote{
+    display: flex;
+    font-family: 'Roboto';
+    width: auto;
+    height: 400px;
+    padding: 0px 20px 0px 20px;
+}
+
+.Quote-Background{
+    display: flex;
+    /* background: red; */
+    width: 100px;
+}
+
+.Quote-Image-Container{
+    display: flex;
+    /* color: aqua; */
+    width: 150px;
+    height: 150px;
+}
+
+.Quote-Forground{
+    display: flex;
+    padding: 60px 0px 20px 0px;
+    flex-direction: column;
+    /* background: green; */
+    flex-grow: 1;
+}
+
+.Quote-Text{
+    font-size: 90px;
+    font-weight: bold;
+    color: #646464;
+    padding-right: 80px;
+}
+
+.Quote-Author{
+    /* background: blue; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+.Quote-Author-Text{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Alt-Text{
+    color: #4475F2;
+}
+
