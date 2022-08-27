@@ -8,11 +8,10 @@
     align-items: center;
     justify-items: center;
     margin: 10px;
-    /* position: fixed; */
     position: fixed;
     bottom: 32px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
     transition: all .4s;
 }
@@ -24,5 +23,5 @@
 .Back-To-Top.active {
     bottom: 32px;
     pointer-events: auto;
-    opacity: 1;
+    opacity: 0;
 }
