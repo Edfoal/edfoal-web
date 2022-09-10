@@ -1,7 +1,7 @@
 .CollegePartners{
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 1366px;
     height: 750px;
     /* background-color: violet; */
     background-image: url("./assets/collegePartnerBG.svg");

@@ -6,7 +6,7 @@ import LoginButton from '../buttons/LoginButton';
 
 const Navbar = () => {
     return (
-        <div >
+        <div className="Navbar-Container">
             <nav className="Navbar">
                 <div className="Navbar-Icon">
                     <img className="Logo" src={logo} alt="logo"/>

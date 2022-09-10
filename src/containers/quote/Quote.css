@@ -1,7 +1,7 @@
 .Quote{
     display: flex;
     font-family: 'Roboto';
-    width: auto;
+    width: 1366px;
     height: 400px;
     padding: 0px 20px 0px 20px;
 }

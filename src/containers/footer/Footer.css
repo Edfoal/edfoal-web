@@ -1,7 +1,16 @@
 .Footer{
+    display: flex;
     font-family: 'Roboto';
     height: 370px;
-    /* line-height: 10px; */
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.Footer-Container{
+    width: 1366px;
+    /* background-color: black; */
 }
 
 .Footer-Main {
@@ -85,10 +94,11 @@
     /* border: 2px green solid; */
     background-color: black;
     color: white;
-    width: auto;
     height: 30px;
     font-size: 12px;
     line-height: 0px;
+    width: 100%;
+    flex-grow: 1;
     /* padding-left: 10px; */
 }
 

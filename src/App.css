@@ -1,7 +1,10 @@
 .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: white;
     padding: 0px;
     margin: 0 auto;
-    max-width: 1366px;
+    max-width: auto;
     scroll-behavior: smooth;
 }

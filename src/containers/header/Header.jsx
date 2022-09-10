@@ -8,9 +8,7 @@ import {Navbar} from '../../components/index';
 const Header = () => {
     return (
         <div className="Header">
-            <div>
-                <Navbar/>
-            </div>
+            <div><Navbar/></div>
             <div className="Header-Main">
                 <div className="Header-Span">
                     <p className="Main-Heading">
