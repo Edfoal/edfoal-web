@@ -1,0 +1,31 @@
+.Service {
+    width: 1366px;
+}
+
+.ServiceHeading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.Service-Grid{
+    display: grid;
+}
+
+.Service-1{
+
+}
+
+.Service-2{
+    
+}
+
+.Service-3{
+    
+}
+
+.Service-4{
+    
+}

@@ -1,0 +1,92 @@
+
+.Header {
+    display: flex;
+    margin-bottom: 120px;
+    background-color: white;
+    height: 950px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header-Main{
+    display: flex;
+    width: 1366px;
+    /* background-color: yellowgreen; */
+    flex-direction: row;
+}
+
+.Header-Span{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px green solid; */
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 0px;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Header-Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-btn{
+    display: block;
+    background-color: #24A0ED;
+    color: #FFFFFF;
+    text-align: center;
+    width: 250px;
+    max-height: 100px;
+    padding: 20px;
+    margin-top: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.Header-btn-label{
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.Header-btn-image{
+    display: inline-block;
+    height: 30px;
+}
+
+.Main-Heading{
+    display: block;
+    font-style: bold;
+    color: #646464;
+    text-align: bottom;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.Sub-Heading{
+    height: 134px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.MH-small{
+    color: #646464;
+    font-size: 50px;
+    
+}
+
+.MH-large{
+    color: #000000;
+    font-size: 80px;
+}
