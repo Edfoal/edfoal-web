@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Header,Footer,Quote,IndustryPartners,
-  CollegePartners, Team, Service
+  CollegePartners, Team,
 } from './containers/contIndex';
 import {BackToTopButton} from './components/index';
 import './App.css'
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Service/>
+      {/* <Service/> */}
       <Quote/>
       <Team/>
       <IndustryPartners/>
