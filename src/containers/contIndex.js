@@ -4,4 +4,5 @@ export {default as Quote} from './quote/Quote';
 export {default as IndustryPartners} from './industryPartners/IndustryPartners'; 
 export {default as CollegePartners} from './collegePartners/CollegePartners'; 
 export {default as Team} from './team/Team'; 
-// export {default as Service} from './services/Service';
+export {default as Service} from './services/Service';
+export {default as AboutUs} from './aboutUs/AboutUs';

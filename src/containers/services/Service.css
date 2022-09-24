@@ -1,5 +1,10 @@
 .Service {
+    display: flex;
+    flex-direction: column;
     width: 1366px;
+    height: 750px;
+    margin-bottom: 120px;
+    /* background-color: brown; */
 }
 
 .ServiceHeading{
@@ -12,20 +17,64 @@
 
 .Service-Grid{
     display: grid;
+    width: auto;
+    flex-grow: 1;
+    margin-top: 60px;
+    padding: 30px 30px 30px 30px;
+    /* height: auto; */
+    /* background-color: chocolate; */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
 }
 
 .Service-1{
-
+    display: flex;
+    background-color: #4475F2;
 }
 
 .Service-2{
-    
+    display: flex;
+    background-color: #D4AC24;
 }
 
 .Service-3{
-    
+    display: flex;
+    background-color: #6CBA74;
 }
 
 .Service-4{
-    
+    display: flex;
+    background-color: #F97A5D;
+}
+
+.Service-Logo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Service-Text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Service-Heading{
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+    height: 50%;
+}
+
+.Service-Quote{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top: 50px;
+    height: 50%;
 }
