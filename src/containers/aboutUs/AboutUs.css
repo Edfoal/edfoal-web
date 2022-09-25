@@ -1,0 +1,27 @@
+.about-us{
+    width: 100%;
+    height: 750px;
+
+    background-image: url("./assets/about-us-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content:center;
+    align-items: stretch;
+   /* background-color: tomato;  */
+}
+
+.about-us-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.about-us-container{
+    display: flex;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}

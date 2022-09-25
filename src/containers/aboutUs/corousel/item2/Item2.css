@@ -1,0 +1,37 @@
+.item-2{
+    display: flex;
+    width: 1366px;
+    height: 450px;
+    border: 2px solid;
+    border-color: #C1C1C1;
+    /* opacity: 40%; */
+    background-color: #FFFFFFB3;
+}
+
+.item-2-text{
+    display: flex;
+    width: 50%;
+    height: 450px;
+    /* background-color: aqua; */
+    justify-content:center;
+    align-items: center;
+    color: #646464;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    /* opacity: 1; */
+}
+
+.item-2-logo{
+    display: flex;
+    width: 50%;
+    height: 450px;
+    /* background-color: tomato; */
+    background-image: url("./assets/item2.svg");
+    background-repeat: no-repeat;
+    background-size: contain ;
+    justify-content:center;
+    align-items: stretch;
+    /* margin: 20px 20px 20px 20px; */
+    /* opacity: 1; */
+}
